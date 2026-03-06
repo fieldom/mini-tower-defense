@@ -10,6 +10,7 @@ add_subdirectory(${OXYGINE_DIR} oxygine_build)
 
 add_executable(mini_tower_defense
     src/main.cpp
+    src/MainScene.cpp
 )
 
 target_include_directories(mini_tower_defense PRIVATE
